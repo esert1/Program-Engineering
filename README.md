@@ -30,8 +30,8 @@
 - Ассистент кафедры информационных технологий и статистики, Ротенштрайх Татьяна Викторовна
 ## Задание 1 - Установка
 
-![](pic/Снимок%экрана%2025-09-15%013416.png)
+![](pic/https://github.com/esert1/Program-Engineering/blob/Theme_1/pic/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202025-09-15%20013416.png)
 
-![](pic/Снимок%экрана%2025-09-15%015111.png)
+![](pic/https://github.com/esert1/Program-Engineering/blob/Theme_1/pic/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202025-09-15%20015111.png)
 
 **Вывод:**
