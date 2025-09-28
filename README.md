@@ -117,7 +117,7 @@ else:
 ```python
 value = 100
 for i in range(10, -1, -1):
-    value -= i+3
+    value -= i+1
     print(i, value)
 ```
 ### Результат.
