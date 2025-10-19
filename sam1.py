@@ -1,0 +1,5 @@
+data = input("Введите числа через пробел: ")
+numbers_list = list(map(int, data.split()))
+numbers_tuple = tuple(numbers_list)
+print(numbers_list)
+print(numbers_tuple)
