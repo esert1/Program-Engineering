@@ -25,19 +25,19 @@
 ### Создайте текстовый файл и поместите его в одну директорию с программой на Python. Текстовый файл должен содержать минимум из двух строк.
 
 ``` input.txt
-Hello Volvo!
-Give DIRETIDE ༼ つ ◕_◕ ༽つ
+Hello students!
+Lets talk about work with files on Python
 ```
 
 ### Результат.
-![]()
+![](pic/lab1.png)
 
 ## Лабораторная работа №2
 ### Напишите программу, которая выведет только первую строку из вашего файла, при этом используйте конструкцию open()/close().
 
 ``` input.txt
-Hello Volvo!
-Give DIRETIDE ༼ つ ◕_◕ ༽つ
+Hello students!
+Lets talk about work with files on Python
 ```
 
 ```python
@@ -53,8 +53,8 @@ f.close()
 ### Напишите программу, которая выведет все строки из вашего файла в массиве, при этом используйте конструкцию open()/close().
 
 ``` input.txt
-Hello Volvo!
-Give DIRETIDE ༼ つ ◕_◕ ༽つ
+Hello students!
+Lets talk about work with files on Python
 ```
 
 ```python
@@ -71,8 +71,8 @@ f.close()
 
 input.txt
 ```
-Hello Volvo!
-Give DIRETIDE ༼ つ ◕_◕ ༽つ
+Hello students!
+Lets talk about work with files on Python
 ```
 
 ```python
@@ -87,8 +87,8 @@ with open('input.txt', 'r') as f:
 ### Напишите программу, которая выведет каждую строку из вашего файла отдельно, при этом используйте конструкцию with open().
 
 ``` input.txt
-Hello Volvo!
-Give DIRETIDE ༼ つ ◕_◕ ༽つ
+Hello students!
+Lets talk about work with files on Python
 ```
 
 ```python
@@ -103,8 +103,8 @@ with open('input.txt') as f:
 ### Напишите программу, которая будет добавлять новую строку в ваш файл, а потом выведет полученный файл в консоль. Вывод можно осуществлять любым способом. Обязательно проверьте сам файл, чтобы изменения в нем тоже отображались.
 
 ``` input_1.txt
-Hello Volvo!
-Give DIRETIDE ༼ つ ◕_◕ ༽つ
+Hello students!
+Lets talk about work with files on Python
 Im additional line
 ```
 
