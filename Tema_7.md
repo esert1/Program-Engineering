@@ -30,7 +30,7 @@ Give DIRETIDE ༼ つ ◕_◕ ༽つ
 ```
 
 ### Результат.
-![](<img width="279" height="85" alt="image" src="https://github.com/user-attachments/assets/bcdcc42a-5407-44c8-a692-efb770e1a0bb" />)
+![]()
 
 ## Лабораторная работа №2
 ### Напишите программу, которая выведет только первую строку из вашего файла, при этом используйте конструкцию open()/close().
@@ -53,8 +53,8 @@ f.close()
 ### Напишите программу, которая выведет все строки из вашего файла в массиве, при этом используйте конструкцию open()/close().
 
 ``` input.txt
-Hello students!
-Lets talk about work with files on Python
+Hello Volvo!
+Give DIRETIDE ༼ つ ◕_◕ ༽つ
 ```
 
 ```python
@@ -71,8 +71,8 @@ f.close()
 
 input.txt
 ```
-Hello students!
-Lets talk about work with files on Python
+Hello Volvo!
+Give DIRETIDE ༼ つ ◕_◕ ༽つ
 ```
 
 ```python
@@ -87,8 +87,8 @@ with open('input.txt', 'r') as f:
 ### Напишите программу, которая выведет каждую строку из вашего файла отдельно, при этом используйте конструкцию with open().
 
 ``` input.txt
-Hello students!
-Lets talk about work with files on Python
+Hello Volvo!
+Give DIRETIDE ༼ つ ◕_◕ ༽つ
 ```
 
 ```python
@@ -103,16 +103,16 @@ with open('input.txt') as f:
 ### Напишите программу, которая будет добавлять новую строку в ваш файл, а потом выведет полученный файл в консоль. Вывод можно осуществлять любым способом. Обязательно проверьте сам файл, чтобы изменения в нем тоже отображались.
 
 ``` input_1.txt
-Hello students!
-Lets talk about work with files on Python
+Hello Volvo!
+Give DIRETIDE ༼ つ ◕_◕ ༽つ
 Im additional line
 ```
 
 ```python
-with open('input_1.txt', 'a+') as f:
+with open('input.txt', 'a+') as f:
     f.write('\nIm additional line')
 
-with open('input_1.txt', 'r') as f:
+with open('input.txt', 'r') as f:
     result = f.readlines()
     print(result)
 ```
