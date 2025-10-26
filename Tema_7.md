@@ -30,7 +30,7 @@ Lets talk about work with files on Python
 ```
 
 ### Результат.
-![](pic/lab1.png)
+![](https://github.com/esert1/Program-Engineering/blob/Theme_7/pic/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202025-10-27%20034429.png)
 
 ## Лабораторная работа №2
 ### Напишите программу, которая выведет только первую строку из вашего файла, при этом используйте конструкцию open()/close().
@@ -47,7 +47,7 @@ f.close()
 
 ```
 ### Результат.
-![](pic/lab2.png)
+![](https://github.com/esert1/Program-Engineering/blob/Theme_7/pic/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202025-10-27%20034441.png)
 
 ## Лабораторная работа №3
 ### Напишите программу, которая выведет все строки из вашего файла в массиве, при этом используйте конструкцию open()/close().
@@ -64,7 +64,7 @@ f.close()
 
 ```
 ### Результат.
-![](pic/lab3.png)
+![](https://github.com/esert1/Program-Engineering/blob/Theme_7/pic/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202025-10-27%20034452.png)
   
 ## Лабораторная работа №4
 ### Напишите программу, которая выведет все строки из вашего файла в массиве, при этом используйте конструкцию with open().
@@ -81,7 +81,7 @@ with open('input.txt', 'r') as f:
 ```
 
 ### Результат.
-![](pic/lab4.png)
+![](https://github.com/esert1/Program-Engineering/blob/Theme_7/pic/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202025-10-27%20034500.png)
 
 ## Лабораторная работа №5
 ### Напишите программу, которая выведет каждую строку из вашего файла отдельно, при этом используйте конструкцию with open().
@@ -97,7 +97,7 @@ with open('input.txt') as f:
         print(line)
 ```
 ### Результат.
-![](pic/lab5.png)
+![](https://github.com/esert1/Program-Engineering/blob/Theme_7/pic/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202025-10-27%20034505.png)
 
 ## Лабораторная работа №6
 ### Напишите программу, которая будет добавлять новую строку в ваш файл, а потом выведет полученный файл в консоль. Вывод можно осуществлять любым способом. Обязательно проверьте сам файл, чтобы изменения в нем тоже отображались.
@@ -117,7 +117,7 @@ with open('input.txt', 'r') as f:
     print(result)
 ```
 ### Результат.
-![](pic/lab6.png)
+![](https://github.com/esert1/Program-Engineering/blob/Theme_7/pic/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202025-10-27%20034524.png)
 
 ## Лабораторная работа №7
 ### Напишите программу, которая перепишет всю информацию, которая была у вас в файле до этого, например напишет любые данные из произвольно вами составленного списка. Также не забудьте проверить, что измененная вами информация сохранилась в файле.
@@ -136,7 +136,7 @@ with open('input_2.txt', 'w') as f:
     print('Done!')
 ```
 ### Результат.
-![](pic/lab7.png)
+![](https://github.com/esert1/Program-Engineering/blob/Theme_7/pic/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202025-10-27%20034645.png)
 
 ## Лабораторная работа №8
 ### Выберите любую папку на своем компьютере, имеющую вложенные директории. Выведите на печать в терминал ее содержимое, как и всех подкаталогов при помощи функции print docs(directory).
@@ -155,7 +155,7 @@ def print_docs(directory):
 print_docs('/Enginering/2')
 ```
 ### Результат.
-![](pic/lab8.png)
+![](https://github.com/esert1/Program-Engineering/blob/Theme_7/pic/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202025-10-27%20034718.png)
 
 ## Лабораторная работа №9
 ### Документ «input.txt» содержит следующий текст:
@@ -202,7 +202,7 @@ def longest_words(file):
 print(longest_words('input_3.txt'))
 ```
 ### Результат.
-![](pic/lab9.png)
+![](https://github.com/esert1/Program-Engineering/blob/Theme_7/pic/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202025-10-27%20034725.png)
 
 ## Лабораторная работа №10
 ### Требуется создать csv-файл «rows_300.csv» со следующими столбцами:
@@ -225,4 +225,4 @@ with open('rows_300.csv', 'w', encoding='utf-8', newline='') as f:
         time.sleep(0.01)
 ```
 ### Результат.
-![](pic/lab10.png)
+![](https://github.com/esert1/Program-Engineering/blob/Theme_7/pic/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202025-10-27%20034859.png)
